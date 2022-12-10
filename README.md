@@ -4,14 +4,14 @@
 
 Amazon Elastic Kubernetes Service (Amazon EKS) is a managed service that you can use to run Kubernetes on AWS without needing to install, operate, and maintain your own Kubernetes control plane or nodes. Kubernetes is an open-source system for automating the deployment, scaling, and management of containerized applications. AWS EKS helps you provide highly available and secure clusters and automates key tasks such as patching, node provisioning, and updates.
 
-![1](https://github.com/bijubayarea/test-terraform-eks-cluster/blob/main/images/1.png)
-![2](https://github.com/bijubayarea/test-terraform-eks-cluster/blob/main/images/2.png)
+![1](https://github.com/bijubayarea/bah-terraform-eks-cluster/blob/main/images/1.png)
+![2](https://github.com/bijubayarea/bah-terraform-eks-cluster/blob/main/images/2.png)
 
 ### Terraform is used to provison both EKS kubernetes Infrastructure & Kubernetes app
 
 Terraform is a free and open-source infrastructure as code (IAC) that can help to automate the deployment, configuration, and management of the remote servers. Terraform can manage both existing service providers and custom in-house solutions.
 
-![3](https://github.com/bijubayarea/test-terraform-eks-cluster/blob/main/images/3.png)
+![3](https://github.com/bijubayarea/bah-terraform-eks-cluster/blob/main/images/3.png)
 
 
 
@@ -294,7 +294,7 @@ This terraform github repo brings up EKS Cluster with following properties
 
 * store the code in the GitHub repository
 
-![4](https://github.com/bijubayarea/test-terraform-eks-cluster/blob/main/images/4.png)
+![4](https://github.com/bijubayarea/bah-terraform-eks-cluster/blob/main/images/4.png)
 
 **Step 9:- Initialize the working directory**
 
@@ -345,16 +345,16 @@ This terraform github repo brings up EKS Cluster with following properties
 * Navigate to your AWS account and verify the resources
 
 1. EKS Cluster:
-![5](https://github.com/bijubayarea/test-terraform-eks-cluster/blob/main/images/5.png)
+![5](https://github.com/bijubayarea/bah-terraform-eks-cluster/blob/main/images/5.png)
 
 2. Auto Scaling Groups:
-![6](https://github.com/bijubayarea/test-terraform-eks-cluster/blob/main/images/6.png)
+![6](https://github.com/bijubayarea/bah-terraform-eks-cluster/blob/main/images/6.png)
 
 3. EC2 Instances:
-![7](https://github.com/bijubayarea/test-terraform-eks-cluster/blob/main/images/7.png)
+![7](https://github.com/bijubayarea/bah-terraform-eks-cluster/blob/main/images/7.png)
 
 * Kubernetes cluster is ready 
-* Next step is deploying kubernetes applications using a different terraform repository : [Deploy K8s NGINX Application](https://github.com/bijubayarea/test-terraform-deploy-nginx-kubernetes-eks)
+* Next step is deploying kubernetes applications using a different terraform repository : [Deploy K8s NGINX Application](https://github.com/bijubayarea/bah-terraform-eks-website-deployment)
 
 
 **Step 14:- Set kubeconfig to access EKS kubernetes cluster using kubectl**
